@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scroll {
+    overflow-y: auto; /* Enable vertical scrolling */
+    -ms-overflow-style: none; /* IE and Edge specific - hide scrollbar */
+    scrollbar-width: none; /* Firefox specific - hide scrollbar */
+}
+
+.custom-scroll::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+/* inner shadow */
+.custom-shadow {
+    box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.07);
+}

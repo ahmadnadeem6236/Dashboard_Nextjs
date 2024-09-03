@@ -1,0 +1,15 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.487013" y="0.487013" width="29.026" height="29.026" rx="3.40909" fill="white" />
+    <rect x="0.487013" y="0.487013" width="29.026" height="29.026" rx="3.40909" stroke="#E1E1E1"
+        stroke-width="0.974026" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M13.2751 17.6055C10.155 17.6055 7.49023 18.0771 7.49023 19.9667C7.49023 21.8563 10.1388 22.3449 13.2751 22.3449C16.3961 22.3449 19.06 21.8725 19.06 19.9837C19.06 18.0949 16.4123 17.6055 13.2751 17.6055Z"
+        stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M13.2636 14.9097C15.3115 14.9097 16.9714 13.2498 16.9714 11.2019C16.9714 9.15404 15.3115 7.49414 13.2636 7.49414C11.2166 7.49414 9.55666 9.15404 9.55666 11.2019C9.54936 13.2425 11.1971 14.9024 13.2385 14.9097H13.2636Z"
+        stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M20.8453 12.2988V15.5537" stroke="black" stroke-width="1.25" stroke-linecap="round"
+        stroke-linejoin="round" />
+    <path d="M22.5014 13.9234H19.1816" stroke="black" stroke-width="1.25" stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>

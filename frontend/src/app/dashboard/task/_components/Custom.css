@@ -1,0 +1,73 @@
+.image-container {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: #00000080;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .delete-icon {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .delete-icon img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* hide scrollar */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .custom-multiselect .multiselect__select {
+    background-color: #f0f0f0; /* Change to your desired background color */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
+  /* hiding scrollar from Assignee */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
